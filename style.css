@@ -1,7 +1,6 @@
 @font-face {
     font-family: norse-bold;  src: url(ASSETS/Norse-Bold.otf);}
-h1 {
-    font-family: norse-bold, sans-serif;}
+
 
 /*  Josh's Custom CSS Reset  https://www.joshwcomeau.com/css/custom-css-reset/*/
 *, *::before, *::after {
@@ -23,3 +22,7 @@ h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;}
 #root, #__next {
     isolation: isolate;}
+
+#logo{
+    font-family: norse-bold, sans-serif;
+    color: white;}
