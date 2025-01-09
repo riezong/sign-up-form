@@ -9,48 +9,57 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <div id="logo">
-                <img src="ASSETS/odin-lined.png" height="100px"><p id="title">The Odin Project</p>
+            <div class="centre">
+                <div class="logo">
+                    <img src="ASSETS/odin-lined.png" height="100px"><p class="title">Odin</p>
+                </div>
             </div>
+            
         </div>
-        <div class="content">
-            <div class="description">
-                <p>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up <em>now</em> to get started.</p>
-                <p>You <em>know</em> you want to.</p>
+        <div class="main">
+            <div class="centre">
+                <div class="description">
+                    <h1>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up <em>now</em> to get started.</h1>
+                    <h1>You <em>know</em> you want to.</h1>
+                </div>
+                <div class="form">
+                    <form action="example.com/path" method="post">
+                        <div class="field-box">
+                            <h1>Let's do this!</h1>
+                            <p>
+                                <label for="first-name">First Name:</label>
+                                <input type="text" id="first-name" name="first-name" >
+                            </p>
+                            <p>
+                                <label for="last-name">Last Name:</label>
+                                <input type="text" id="last-name" name="last-name" >
+                            </p>
+                            <p>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" >
+                            </p>
+                            <p>
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone">
+                            </p>
+                            <p>
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" name="password" required>
+                            </p>
+                            <p>
+                                <label for="confirm-password">Confirm Password:</label>
+                                <input type="password" id="confirm-password" name="confirm-password" required>
+                            </p>
+                        </div>
+                        <div class="description">
+                            <button class="btn">Create Account</button>
+                            <p>Already have an account? <a href="index.html">Log in.</a></p>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form">
-                <form action="example.com/path" method="post">
-                    <div class="field-box">
-                        <p>Let's do this!</p>
-                        <p>
-                            <label for="first-name">First Name:</label>
-                            <input type="text" id="first-name" name="first-name" required>
-                        </p>
-                        <p>
-                            <label for="last-name">Last Name:</label>
-                            <input type="text" id="last-name" name="last-name" required>
-                        </p>
-                        <p>
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
-                        </p>
-                        <p>
-                            <label for="phone">Phone Number:</label>
-                            <input type="tel" id="phone" name="phone" required>
-                        </p>
-                        <p>
-                            <label for="password">Password:</label>
-                            <input type="password" id="password" name="password" required>
-                        </p>
-                        <p>
-                            <label for="confirm-password">Confirm Password:</label>
-                            <input type="password" id="onfirm-password" name="onfirm-password" required>
-                        </p>
-                    </div>
-                    <button class="btn">Create Account</button>
-                    <p>Already have an account? <a href="index.html">Log in.</a></p>
-                </form>
-            </div>
+            
+            
         </div>
     </div>
     
